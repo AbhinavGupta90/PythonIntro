@@ -25,18 +25,16 @@ def print_squares_of_numbers_up_to(num):
     for i in range(1, num+1):
        conduct_squaring(i)
 
-print_squares_of_numbers_up_to(12)
-
 def print_squares_of_even_numbers_up_to(num):
     print("SQUARED EVEN NUMBERS UP TO " + str(num))
     for i in range (0, num+1, 2):
         conduct_squaring(i)
-
-print_squares_of_even_numbers_up_to(10)
 
 def print_squares_of_numbers_up_to_backwards(num):
     print("BACKWARDS")
     for i in range(num, 1, -1):
         conduct_squaring(i)
 
+print_squares_of_numbers_up_to(12)
+print_squares_of_even_numbers_up_to(10)
 print_squares_of_numbers_up_to_backwards(10)
