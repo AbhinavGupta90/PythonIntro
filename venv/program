@@ -1,0 +1,11 @@
+name = "Blazej"
+surname = "Wielk"
+print("Test print")
+print(name + " " + surname)
+
+def print_personal_details(name, surname, yob):
+    print("NAME: " + name
+          + "\nSURNAME: " + surname
+          + "\nYEAR OF BIRTH: " + yob)
+
+print_personal_details(name, surname, "1992")
