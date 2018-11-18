@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bcc70b4-3d40-414a-bbf3-05cb5bdfdaca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inheritance_python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/multiplication_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,45 +20,48 @@
     <session id="854512134">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.181" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
           <entry key="program" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
           <entry key="program" value="1178" />
-          <entry key="py" value="1795" />
+          <entry key="py" value="2288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="2973" />
+          <entry key="Python" value="3466" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/multiplication_table.py">
+        <entry file="file://$PROJECT_DIR$/multiplication_table.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <marker date="1542062389213" expanded="true" signature="111:116" ph="..." />
                 <marker date="1542062389213" expanded="true" signature="198:200" ph="..." />
@@ -64,16 +72,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/data_types.py">
+        <entry file="file://$PROJECT_DIR$/inheritance_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <marker date="1542563521601" expanded="true" signature="13:14" ph="..." />
+                <marker date="1542563521601" expanded="true" signature="13:15" ph="..." />
+                <marker date="1542563521601" expanded="true" signature="108:110" ph="..." />
+                <marker date="1542563521601" expanded="true" signature="132:133" ph="..." />
+                <marker date="1542563521601" expanded="true" signature="132:138" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+        <entry file="file://$PROJECT_DIR$/pip-selfcheck.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -96,14 +111,15 @@
         <option value="$PROJECT_DIR$/venv/for_loop_examples.py" />
         <option value="$PROJECT_DIR$/venv/multiplication_table.py" />
         <option value="$PROJECT_DIR$/venv/data_types.py" />
+        <option value="$PROJECT_DIR$/inheritance_python.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="202" />
+    <option name="y" value="83" />
+    <option name="width" value="812" />
+    <option name="height" value="612" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,11 +134,6 @@
             <path>
               <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
@@ -146,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_types">
+  <component name="RunManager" selected="Python.inheritance_python">
     <configuration name="data_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,7 +170,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/data_types.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\data_types.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +191,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\venv\multiplication_table.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\multiplication_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritance_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sampleProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +233,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/multiplication_table.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\multiplication_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +254,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\venv\program.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BlazejW\PycharmProjects\sampleProject\program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,9 +268,11 @@
       <item itemvalue="Python.for_loop_examples" />
       <item itemvalue="Python.multiplication_table" />
       <item itemvalue="Python.data_types" />
+      <item itemvalue="Python.inheritance_python" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inheritance_python" />
         <item itemvalue="Python.data_types" />
         <item itemvalue="Python.multiplication_table" />
         <item itemvalue="Python.for_loop_examples" />
@@ -260,23 +294,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32851985" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32851985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32851985" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,25 +327,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/program.py">
+    <entry file="file://$PROJECT_DIR$/program.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <marker date="1541958206372" expanded="true" signature="130:131" ph="..." />
-            <marker date="1541958206372" expanded="true" signature="576:634" ph="..." />
-            <marker date="1541958206372" expanded="true" signature="829:945" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/multiplication_table.py">
+    <entry file="file://$PROJECT_DIR$/data_types.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiplication_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <marker date="1542062389213" expanded="true" signature="111:116" ph="..." />
             <marker date="1542062389213" expanded="true" signature="198:200" ph="..." />
@@ -320,10 +353,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/data_types.py">
+    <entry file="file://$PROJECT_DIR$/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1542563521601" expanded="true" signature="13:14" ph="..." />
+            <marker date="1542563521601" expanded="true" signature="13:15" ph="..." />
+            <marker date="1542563521601" expanded="true" signature="108:110" ph="..." />
+            <marker date="1542563521601" expanded="true" signature="132:133" ph="..." />
+            <marker date="1542563521601" expanded="true" signature="132:138" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

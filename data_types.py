@@ -51,3 +51,6 @@ print("1234abs".isnumeric()) #false
 print("1234abs".isalpha()) #false
 print("122333445".isnumeric()) #true
 print("MEINNAMENISTBLAZEJ".isalpha()) #true
+
+#Type conversion puzzles
+
