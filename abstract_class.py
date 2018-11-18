@@ -32,6 +32,19 @@ class PastaRecipe(AbstractRecipe):
     def wash_up(self):
         print("Wash the dishes")
 
+class RecipeWithMicrowave(AbstractRecipe):
+
+    def get_ready(self):
+        print("Open the packaging and put its content into a bowl")
+
+    def prepare_the_dish(self):
+        print("Set the microwave for 2 minutes cooking")
+
+    def wash_up(self):
+        print("Wash up carefully")
+
 
 recipe = PastaRecipe()
 recipe.execute_recipe()
+recipe_microwave = RecipeWithMicrowave()
+recipe_microwave.execute_recipe()
