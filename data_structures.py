@@ -44,5 +44,21 @@ print(list_of_strings)
 #SORTING
 
 verbal_numerals = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+verbal_numerals.reverse()
+print(verbal_numerals)
 
+reversed(verbal_numerals)
+counter = 0
+for number in reversed(verbal_numerals):
+    print(number + " ====> %s" % {counter})
+    counter += 1
+
+verbal_numerals.sort()
+print(verbal_numerals)
+
+for number in sorted(verbal_numerals, key=len):
+    print(number)
+
+for number in sorted(verbal_numerals, key=len, reverse=True):
+    print(number)
 
