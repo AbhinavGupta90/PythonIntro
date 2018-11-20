@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bcc70b4-3d40-414a-bbf3-05cb5bdfdaca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,26 +27,26 @@
         <counts>
           <entry key="json" value="1" />
           <entry key="program" value="1" />
-          <entry key="py" value="10" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
           <entry key="program" value="1178" />
-          <entry key="py" value="5934" />
+          <entry key="py" value="6512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="7112" />
+          <entry key="Python" value="7690" />
         </counts>
       </usages-collector>
     </session>
@@ -78,11 +80,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="311">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom_classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <marker date="1542751590056" expanded="true" signature="14:15" ph="..." />
+                <marker date="1542751590056" expanded="true" signature="14:20" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +137,8 @@
         <option value="$PROJECT_DIR$/pythonish_interface.py" />
         <option value="$PROJECT_DIR$/static_variables.py" />
         <option value="$PROJECT_DIR$/data_structures.py" />
+        <option value="$PROJECT_DIR$/lists.py" />
+        <option value="$PROJECT_DIR$/custom_classes.py" />
       </list>
     </option>
   </component>
@@ -168,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_structures">
-    <configuration name="abstract_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.custom_classes">
+    <configuration name="custom_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiple_inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sampleProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,7 +249,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiple_inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,19 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.multiple_inheritance" />
-      <item itemvalue="Python.abstract_class" />
       <item itemvalue="Python.pythonish_interface" />
       <item itemvalue="Python.static_variables" />
       <item itemvalue="Python.data_structures" />
+      <item itemvalue="Python.lists" />
+      <item itemvalue="Python.custom_classes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.custom_classes" />
+        <item itemvalue="Python.lists" />
         <item itemvalue="Python.data_structures" />
         <item itemvalue="Python.static_variables" />
         <item itemvalue="Python.pythonish_interface" />
-        <item itemvalue="Python.abstract_class" />
-        <item itemvalue="Python.multiple_inheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -308,12 +334,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,8 +458,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="311">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1542751590056" expanded="true" signature="14:15" ph="..." />
+            <marker date="1542751590056" expanded="true" signature="14:20" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
