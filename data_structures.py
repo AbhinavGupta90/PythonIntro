@@ -62,3 +62,38 @@ for number in sorted(verbal_numerals, key=len):
 for number in sorted(verbal_numerals, key=len, reverse=True):
     print(number)
 
+## SETS
+
+numbers = [1,2,3,3,4,2,1,3]
+numbers_set = set(numbers)
+numbers_set.add(4)
+numbers_set.add(76)
+numbers_set.remove(1)
+print(numbers_set)
+print(1 in numbers_set)
+
+numbers_1_to_5 = set(range(1,6))
+print(numbers_1_to_5)
+numbers_6_to_12 = set(range(5, 13))
+print(numbers_6_to_12)
+set_of_all_numbers = numbers_1_to_5 | numbers_6_to_12 ## pipe joins two sets
+print(set_of_all_numbers)
+common_element_for_two_sets = numbers_1_to_5 & numbers_6_to_12 #should be 5
+print(common_element_for_two_sets)
+
+## DICTIONARY
+
+occurances = dict(a=5, b=6, c=7, d=64)
+occurances['a'] = 25
+keys_of_occurances = occurances.keys()
+values_of_occuerences = occurances.values()
+print(values_of_occuerences)
+print(keys_of_occurances)
+print(occurances)
+print(occurances.items())
+
+for(key, value) in occurances.items():
+    print("%s => %s" % ({"1" + key}, {30 + value}))
+
+del occurances['a']
+print(occurances)
