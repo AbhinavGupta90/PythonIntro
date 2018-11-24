@@ -97,3 +97,26 @@ for(key, value) in occurances.items():
 
 del occurances['a']
 print(occurances)
+
+squares_of_first_ten_numbers = [num*num for num in range(1, 11)]
+print(type(squares_of_first_ten_numbers))
+squares_of_nums_between_ten_and_twenty_set = {num*num for num in range(10, 21)}
+print(squares_of_nums_between_ten_and_twenty_set)
+squares_of_nums_between_twenty_and_thirty_dict = {num: num*num for num in range(20, 31)}
+print(squares_of_nums_between_twenty_and_thirty_dict)
+print(type(squares_of_nums_between_twenty_and_thirty_dict))
+print(type([])) ##list
+print(type({})) ##dist
+print(type(())) ##tuple
+
+##TUPLES
+def create_a_person():
+    return "Person name", "Person surname", 1998, 20
+
+print(create_a_person())
+print(type(create_a_person())) ##tuple
+
+elise = create_a_person()
+name, surname, yob, age = elise
+print(elise)
+
