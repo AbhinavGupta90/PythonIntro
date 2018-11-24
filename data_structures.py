@@ -119,4 +119,6 @@ print(type(create_a_person())) ##tuple
 elise = create_a_person()
 name, surname, yob, age = elise
 print(elise)
+print(name) #Person name
+print(yob) #1998
 
