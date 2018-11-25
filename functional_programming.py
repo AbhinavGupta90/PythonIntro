@@ -96,3 +96,5 @@ dobs = [(23, "March", 1992), (31, "May", 1986), (16, "July", 1984), (11, "April"
 
 sum_of_day_of_birth_values = reduce(lambda x,y: x+y,(map(lambda date: date[0], dobs)))
 print(sum_of_day_of_birth_values)
+the_earliest_birthday_in_a_month = reduce(lambda x,y: x if x[0] < y[0] else y,dobs)
+print(the_earliest_birthday_in_a_month)
