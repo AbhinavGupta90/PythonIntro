@@ -84,3 +84,15 @@ print(maximum_length_words)
 
 minimum_length_words = reduce(lambda x,y: x if len(x) < len(y) else y, words)
 print(minimum_length_words)
+
+#MIXED LAMBDAS
+
+squared_even_numbers = list(map(lambda num: num**2, (filter(lambda num: num%2==0, list_of_numbers))))
+sum_of_squared_even_numbers = reduce(lambda x,y: x+y, squared_even_numbers)
+print(squared_even_numbers)
+print(sum_of_squared_even_numbers)
+
+dobs = [(23, "March", 1992), (31, "May", 1986), (16, "July", 1984), (11, "April", 1936), (6, "March", 1992)]
+
+sum_of_day_of_birth_values = reduce(lambda x,y: x+y,(map(lambda date: date[0], dobs)))
+print(sum_of_day_of_birth_values)
