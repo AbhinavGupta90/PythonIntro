@@ -51,3 +51,15 @@ example_method(name="John", surname="McT", initials="AJM", mandatory=29, default
 ## DEFAULT => Twenty type{<class 'str'>}
 ## ARGS => () type{<class 'tuple'>}
 ## KWARGS => {'name': 'John', 'surname': 'McT', 'initials': 'AJM'} type{<class 'dict'>}
+
+example_method(1992, *("seal", "fish", "dolphin", "sealion", "walrus"))
+## MANDATORY = > 1992 type{ <class 'int'>}
+## DEFAULT = > seal type{< class 'str' >}
+## ARGS = > ('fish', 'dolphin', 'sealion', 'walrus') type{< class 'tuple' >}
+## KWARGS = > {} type{< class 'dict' >}
+
+example_method(1992,("seal", "fish", "dolphin", "sealion", "walrus"))
+## MANDATORY => 1992 type{<class 'int'>}
+## DEFAULT => seal type{<class 'str'>}
+## ARGS => ('fish', 'dolphin', 'sealion', 'walrus') type{<class 'tuple'>}
+## KWARGS => {} type{<class 'dict'>}
